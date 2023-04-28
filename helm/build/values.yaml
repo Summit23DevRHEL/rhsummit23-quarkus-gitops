@@ -1,0 +1,15 @@
+app:
+  name: rhsummit23-quarkus-app
+  namespace: rhsummit23-quarkus-app-dev
+  cluster: .apps.summit23-dr.w6gk.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23DevRHEL/rhsummit23-quarkus
+  org: Summit23DevRHEL
+  name: rhsummit23-quarkus
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: rhsummit23-quarkus-app-dev/rhsummit23-quarkus-app
+  tag: latest
